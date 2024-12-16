@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\e2e",
+    "\\cypress\\e2e\\api_test",
+    "\\cypress\\e2e\\page_objects",
+    "\\cypress\\e2e\\UI_test",
+    "\\cypress\\fixtures"
+  ],
+  "SelectedNode": "\\cypress.config.js",
+  "PreviewInSolutionExplorer": false
+}
