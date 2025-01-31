@@ -8,7 +8,7 @@ describe("Testes de API - Usuários ServeRest @APITest", () => {
   let testData = {};
 
   beforeEach(() => {
-    // Usando o custom command apiLogin
+    // Usando o custom command apiLogin e realizando autenticação
     cy.apiLogin()
       .then((response) => {
         expect(response.status).to.equal(200);

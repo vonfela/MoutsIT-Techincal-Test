@@ -76,7 +76,7 @@ describe('Cadastro de Usuários - UI Tests', () => {
         //     .and('contain', 'Cadastro realizado com sucesso')
     })
 
-    it('deve exibir erro ao tentar cadastrar com email já existente @ui @cadastro @error', () => {
+    it.only('deve exibir erro ao tentar cadastrar com email já existente @ui @cadastro @error', () => {
         CadastroUsuarioPage.fillNome(novoUsuario.nome)
         CadastroUsuarioPage.fillEmail(Cypress.env('EMAIL')) // email já existente
         CadastroUsuarioPage.fillPassword(novoUsuario.senha)
